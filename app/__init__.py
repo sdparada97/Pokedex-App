@@ -26,7 +26,6 @@ def create_app(config=config_dict["dev"]):
     # Obtener el objeto logger raíz
     logger = logging.getLogger('')
     logger.addHandler(file_handler)
-    logger.addHandler(console_handler)
 
     # Register blueprints
     app.register_blueprint(main)
