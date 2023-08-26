@@ -63,7 +63,10 @@ pyproject-hooks==1.0.0
 pytest==7.4.0
     # via
     #   -r requirements.in
+    #   pytest-asyncio
     #   pytest-flask
+pytest-asyncio==0.21.1
+    # via -r requirements.in
 pytest-flask==1.2.0
     # via -r requirements.in
 python-dotenv==1.0.0
