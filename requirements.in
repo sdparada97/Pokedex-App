@@ -1,0 +1,8 @@
+Flask[async]
+aiohttp
+Jinja2
+pip-tools
+pytest
+pytest-flask
+pytest-asyncio
+python-dotenv
